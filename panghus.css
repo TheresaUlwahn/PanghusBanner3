@@ -60,7 +60,7 @@ h1 {
 h2 {
 	/* font-family: gothamBold, serif; */
 	font-family: gothamBook, sans-serif;
-	padding: 10px 20px;
+	padding: 10px 1px;
 	margin: 0px;
 	color: #6f6f6f;
 	font-size: small;
@@ -70,6 +70,7 @@ button {
 	padding: 0px;
 	/* border: solid 1px white; */
 	border: none;
+	align-self: center;
 }
 
 button :hover {
