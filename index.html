@@ -1,0 +1,76 @@
+  
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript">
+      try{ $$preamble$$ }catch(e){}
+      if (typeof(window.HTML5) == 'undefined') {
+        var p = 'https:' == document.location.protocol ? 'https:' : 'http:';
+        document.write('<scr'+'ipt src="'+p+'//sting.de17a.com/html5.js"></scr'+'ipt>');
+      } else { window.HTML5.boot(window, window.Sting); }
+    </script>
+    <!-- Do not change anything above this line -->
+
+    <!-- Place your style and other resourcer under this line -->
+    <link rel="stylesheet" href="./panghus.css">
+    <title>Panghus Ljungsbro Ängar - 320x320</title>  
+  </head>
+  
+  <body>
+    <!-- Place your html under this line -->
+    <section id="click-me" class="banner">
+      <div class="panghusLogo">
+        <img class="imgLogo" width="50" height="50" src="./assets/LoggaVit.png" alt="panghusLogo">
+      </div>
+      <div class="infoText">
+        <div>
+          <h1>Linköping - Ljungsbro Ängar. <br/> Ett nytt område växer fram vackert beläget nära naturen. </h1>
+        </div>
+        <div>
+          <button><h2>Läs mer och anmäla ditt intresse!</h2></button>
+        </div>
+      </div>
+      <img class="productImg" width="250" height="150" name="slide"  />
+      <!--  -->
+    </section>
+   
+    <script type="text/javascript">
+      html5.ready(function() {
+        // JavaScript to run when ad is done loading
+
+        // Run function when page loads
+        window.onload=changeImg;
+      });
+
+      var i = 0; 			// Start Point
+      var images = [];	// Images Array
+      var time = 3000;	// Time Between Switch
+        
+      // Image List
+      images[0] = "./assets/Hus1.jpg";
+      images[1] = "./assets/Hus2.jpg";
+      // images[2] = "./assets/Kedjehuset_2.jpg";
+      // images[3] = "./assets/radhusbaksida.jpg";
+
+      // Change Image
+      function changeImg(){
+        document.slide.src = images[i];
+
+        // Check If Index Is Under Max
+        if(i < images.length - 1){
+          // Add 1 to Index
+          i++; 
+        } else { 
+          // Reset Back To O
+          i = 0;
+        }
+
+        setTimeout("changeImg()", time);
+      }
+
+      document.getElementById("click-me").onclick = function() {
+        window.open(html5.getClickTag(), "_blank");
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,86 @@
+@font-face {
+	font-family: gothamBold;
+	src: url(fonts/Gotham-Bold.otf);
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: gothamBook;
+	src: url(fonts/Gotham-Book.otf);
+}
+
+@font-face {
+	font-family: gothamMedium;
+	src: url(fonts/Gotham-Medium.otf);
+	font-weight: normal;
+}
+
+body {
+	margin: 0px;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+}
+
+
+.banner {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 320px;
+	height: 320px;
+	background-color: lightgray;
+	/* background-image: url("./assets/Hus1.jpg"); */
+}
+
+.panghusLogo {
+	display: block;
+}
+
+.imgLogo {
+	width: 50px;
+	height: 50px;
+  margin: 10px 0px 0px 10px;
+  /* background-color: #6f6f6f; */
+}
+
+.infoText {
+	display: flex;
+	flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+	font-family: gothamBold, serif;
+	color: #6f6f6f;
+	font-size: medium;
+}
+
+h2 {
+	/* font-family: gothamBold, serif; */
+	font-family: gothamBook, sans-serif;
+	padding: 10px 20px;
+	margin: 0px;
+	color: #6f6f6f;
+	font-size: small;
+}
+
+button {
+	padding: 0px;
+	/* border: solid 1px white; */
+	border: none;
+}
+
+button :hover {
+	cursor: pointer;
+	background-color: #6f6f6f;
+	color: white;
+}
+
+.productImg {
+	width: 215px;
+	height: 120px;
+	align-self: center;
+	padding: 10px;
+}

@@ -1,0 +1,11 @@
+{
+	"company": "Panghus",
+ 	"campain": "Ljungsbro Ängar",
+	"width": 320,
+	"height": 320,
+	"source": "index.html",
+	"clicktags": {
+		"clickTAG": "http://example.org"
+	}
+}
+
