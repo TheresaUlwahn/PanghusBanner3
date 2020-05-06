@@ -1,4 +1,4 @@
-# PanghusBanner3
+# Panghus Banner 3
 
 HTML5-banner for Panghus
 
