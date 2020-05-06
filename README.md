@@ -1,4 +1,4 @@
-# PanghusBanner3
+# Panghus Banner 3
 
 HTML5-banner for Panghus
 
@@ -18,4 +18,3 @@ Call to action knapp Läs mer och anmäla ditt intresse
 
 Storlek 320x320
 
-Storlekar  250x600
